@@ -72,9 +72,9 @@ void init()
 	TextureAsset::Register(U"Sky", Resource(U"gazou/Sky.png"));
 
 	//Audio
-	//AudioAsset::Register(U"bgm", Resource(U"audio/bgm.mp3"),Loop::Yes);
-	//AudioAsset::Register(U"select", Resource(U"audio/select.mp3"));
-	//AudioAsset::Register(U"decide", Resource(U"audio/decide.mp3"));
+	AudioAsset::Register(U"bgm", Resource(U"audio/bgm.mp3"),Loop::Yes);
+	AudioAsset::Register(U"select", Resource(U"audio/select.mp3"));
+	AudioAsset::Register(U"decide", Resource(U"audio/decide.mp3"));
 }
 
 void Main()

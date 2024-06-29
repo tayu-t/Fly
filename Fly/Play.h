@@ -92,7 +92,7 @@ private:
 	//goal系
 	Vec2 goal_logo_pos{ 0,0 };//ゴールのロゴの位置
 
-	bool debug{ true };
+	bool debug{ false };
 public:
 
 	//stage
